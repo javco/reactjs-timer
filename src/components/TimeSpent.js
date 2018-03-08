@@ -4,7 +4,7 @@ class TimeSpent extends React.Component {
   // The render method is called each time the state of component changes
   render() {
     return (
-      <h1>{this.props.seconds}</h1>
+      <h1>{this.props.hours}:{this.props.minutes}:{this.props.seconds}:{this.props.hundredths}</h1>
     );
   }
 }
